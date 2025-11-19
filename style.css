@@ -1,0 +1,21 @@
+body {
+  background: #111;
+  color: #0f0;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#price {
+  font-size: 4rem;
+}
+
+.lastFiftyContainer {
+  display: flexbox;
+  flex-direction: column;
+  width: 150px;
+  height: 100%;
+}
