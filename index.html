@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
-  <body>
+  <body onload="init();">
     <h1>BTC/USDT Price (Binance Live)</h1>
     <div id="price">Connecting...</div>
     <div>Highest Number</div>
@@ -14,5 +14,8 @@
     <div id="lowest"></div>
     <div>Average Percent</div>
     <div id="avgPercent"></div>
+    <h1 id="chartTop"></h1>
+    <canvas id="canvas" width="900" , height="500"> </canvas>
+    ><br />
   </body>
 </html>
